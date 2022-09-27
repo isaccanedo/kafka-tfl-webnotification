@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:10px;
+}
+
+div.greyGridTable {
+    border: 2px solid #FFFFFF;
+    width: 700px;
+    text-align: left;
+    border-collapse: collapse;
+}
+.divTable.greyGridTable .divTableCell, .divTable.greyGridTable .divTableHead {
+    border: 1px solid #FFFFFF;
+    padding: 3px 4px;
+}
+.divTable.greyGridTable .divTableBody .divTableCell {
+    font-size: 15px;
+}
+.divTable.greyGridTable .divTableRow:nth-child(even) {
+    background: #EBEBEB;
+}
+.divTable.greyGridTable .divTableHeading {
+    background: #FFFFFF;
+    border-bottom: 2px solid #333333;
+}
+.divTable.greyGridTable .divTableHeading .divTableHead {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+    text-align: left;
+}
+.greyGridTable .tableFootStyle {
+    font-size: 14px;
+}
+
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
+
+.name {
+    width: 400px;
+}
+
+.baycount {
+    width: 100px;
+}
+
+.free {
+    width: 100px;
+}
+
+.occupied {
+    width: 100px;
+}
+
+#lastUpdate {
+    margin-top:40px;
+    font-size: 12px;
+}
+
+.small {
+    font-size: 12px;
+}

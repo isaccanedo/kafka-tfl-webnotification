@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TfL CarPark</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<h1>Transport for London - CarPark State</h1>
+<p class="small">Powered by TfL Open Data, Contains OS data © Crown copyright and database rights 2016</p>
+
+<div class="divTable greyGridTable" id="carparks">
+    <div class="divTableHeading">
+        <div class="divTableRow">
+            <div class="divTableHead name">Name</div>
+            <div class="divTableHead baycount">Bay Count</div>
+            <div class="divTableHead free">Free</div>
+            <div class="divTableHead occupied">Occupied</div>
+        </div>
+    </div>
+
+    <div class="divTableBody" id="carparks-body">
+
+    </div>
+</div>
+
+<div id="lastUpdate"></div>
+
+<script src='js/jquery.min.js'></script>
+<script src="js/index.js"></script>
+<script src="/webjars/sockjs-client/sockjs.min.js"></script>
+<script src="/webjars/stomp-websocket/stomp.min.js"></script>
+</body>
+</html>
